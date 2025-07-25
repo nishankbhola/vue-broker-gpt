@@ -40,7 +40,7 @@ regex==2024.11.6
 tqdm==4.67.1
 
 # ChromaDB dependencies
-sqlite3
+#sqlite3
 mmh3==5.1.0
 onnxruntime==1.22.1
 posthog==5.4.0
