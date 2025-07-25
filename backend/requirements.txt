@@ -1,0 +1,60 @@
+# Core Flask dependencies
+Flask==2.3.3
+Flask-CORS==4.0.0
+Werkzeug==2.3.7
+
+# Environment and configuration
+python-dotenv==1.1.1
+
+# HTTP requests
+requests==2.32.4
+
+# Document processing
+PyPDF2==3.0.1
+# Alternative: pypdf==5.7.0 (if you prefer the newer version)
+
+# Text processing and embeddings
+langchain==0.3.26
+langchain-community==0.3.27
+langchain-core==0.3.68
+langchain-text-splitters==0.3.8
+
+# Vector database
+chromadb==1.0.15
+
+# ML/AI dependencies for embeddings
+sentence-transformers==5.0.0
+torch==2.7.1
+transformers==4.53.2
+tokenizers==0.21.2
+huggingface-hub==0.33.4
+
+# Scientific computing (required by sentence-transformers and chromadb)
+numpy==2.3.1
+scikit-learn==1.7.0
+
+# Required by various ML libraries
+safetensors==0.5.3
+filelock==3.18.0
+regex==2024.11.6
+tqdm==4.67.1
+
+# ChromaDB dependencies
+sqlite3
+mmh3==5.1.0
+onnxruntime==1.22.1
+posthog==5.4.0
+typer==0.16.0
+
+# HTTP client for ChromaDB
+httpx==0.28.1
+
+# Required by langchain
+PyYAML==6.0.2
+tenacity==9.1.2
+jsonpatch==1.33
+jsonpointer==3.0.0
+
+# Additional utility libraries that may be required
+packaging==24.2
+typing_extensions==4.14.1
